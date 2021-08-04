@@ -1,0 +1,10 @@
+Project 3
+
+Purpose: The purpose of the program allows the user to enter an input file containing a list of Car Agencies with the respected car, model, make, year etc.. Adding on, the program uses an array of structs and classes to read and write from the file. The program displays a menu to the user, given six choices, that can overall help the user with car rental. 
+
+
+Design: This program was a continuation of project 2 with adding the implementation of classes.
+
+Problems: The major issue I had was trying to compile the program. Adding on, I had with this program is correctly implementing classes with structs to the program. 
+
+Possible Changes: If given more time, I would take the time to fix the errors in my functions. 
