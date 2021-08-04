@@ -1,0 +1,43 @@
+$ cd Desktop 
+$ cd PA04_CrystalAtoz
+$ cd Assignment 
+$ make
+rm -f ./.depend
+g++ -Wall -std=c++14 -MM LeftLeaningRedBlackTree.h RedBlackNode.h > ./.depend;
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated]
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated]
+g++ -Wall -std=c++14 -c driver4.cpp -o driver4.o
+g++ -Wall -std=c++14 driver4.o -lm  -o test4
+$ ./test4
+INSERTING... 48
+PREORDER: 48(BLACK) 
+
+INSERTING... 71
+PREORDER: 71(BLACK) 48(RED) 
+
+INSERTING... 5
+PREORDER: 48(BLACK) 5(BLACK) 71(BLACK) 
+
+INSERTING... 94
+PREORDER: 48(BLACK) 5(BLACK) 94(BLACK) 71(RED) 
+
+INSERTING... 27
+PREORDER: 48(BLACK) 27(BLACK) 5(RED) 94(BLACK) 71(RED) 
+
+INSERTING... 94
+PREORDER: 94(BLACK) 48(RED) 27(BLACK) 5(RED) 71(BLACK) 94(BLACK) 
+
+INSERTING... 42
+PREORDER: 48(BLACK) 27(BLACK) 5(BLACK) 42(BLACK) 94(BLACK) 71(BLACK) 94(BLACK) 
+
+INSERTING... 68
+PREORDER: 48(BLACK) 27(BLACK) 5(BLACK) 42(BLACK) 94(BLACK) 71(BLACK) 68(RED) 94(BLACK) 
+
+INSERTING... 85
+PREORDER: 48(BLACK) 27(BLACK) 5(BLACK) 42(BLACK) 94(BLACK) 71(RED) 68(BLACK) 85(BLACK) 94(BLACK) 
+
+INSERTING... 57
+PREORDER: 48(BLACK) 27(BLACK) 5(BLACK) 42(BLACK) 94(BLACK) 71(RED) 68(BLACK) 57(RED) 85(BLACK) 94(BLACK) 
+
+DELETING... 27
+PREORDER: 71(BLACK) 48(BLACK) 42(BLACK) 5(RED) 68(BLACK) 57(RED) 94(BLACK) 85(BLACK) 94(BLACK) 
