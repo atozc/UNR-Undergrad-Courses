@@ -1,0 +1,107 @@
+StackLinked.cpp:
+
+-StackLinked<DataType>::StackLinked(int maxNumber) : top(nullptr)
+
+	This function makes sure that the stack is empty.
+
+-StackLinked<DataType>::StackLinked(const StackLinked &other)
+
+	This function initializes the stack to be equal to the other stack object. It does this by going through the stack one by one. 
+
+-StackLinked<DataType>& StackLinked<DataType>::operator=(const StackLinked &other)
+
+	This function initializes the stack to be equal to the other stack object and returns a reference to that stack that is now modified. 
+
+-StackLinked<DataType>::~StackLinked()
+
+	This function deallocates the memory that is used to store the stack by using the clear() function. 
+
+-void StackLinked<DataType>::push(const DataType &newDataItem) throw(logic_error)
+
+	If the stack is not full, it inserts newDataItem on top of the stack. 
+
+-DataType StackLinked<DataType>::pop() throw(logic_error)
+
+	If the stack is not full, it removes the most recently added data item on top of the stack and returns the value of that recently deleted item. If the stack is empty, it displays an error to the user. 
+
+-void StackLinked<DataType>::clear()
+
+	The function clears all items in the stack by going through the stack one by one. 
+
+-bool StackLinked<DataType>::isEmpty() const
+
+	The bool function checks if the stack is empty.
+
+-bool StackLinked<DataType>::isFull() const
+
+	The bool function checks if the stack is full. 
+
+-void StackLinked<DataType>::showStructure() const
+
+	Displays the items in the stack and also checks to see if the stack is empty. If the stack is empty, it displays to the user that the stack is empty. 
+
+-StackLinked<DataType>::StackNode::StackNode(const DataType &nodeData, StackNode *nextPtr)
+
+----------------------
+
+StackArray.cpp:
+
+-StackArray<DataType>::StackArray(int maxNumber) : maxSize(maxNumber), top(EMPTY_STACK) 
+
+	This function makes sure that the stack is empty.
+
+-StackArray<DataType>::StackArray(const StackArray &other) : maxSize(other.maxSize), top(other.top)
+
+	This function initializes the stack to be equal to the other stack object. It does this by going through the stack one by one. 
+
+-StackArray<DataType>& StackArray<DataType>::operator=(const StackArray &other)
+
+	This function initializes the stack to be equal to the other stack object and returns a reference to that stack that is now modified. 
+
+-StackArray<DataType>::~StackArray()
+
+	This function deallocates the memory that is used to store the stack by using the clear() function. 
+
+-void StackArray<DataType>::push(const DataType &newDataItem) throw(logic_error)
+
+	If the stack is not full, it inserts newDataItem on top of the stack. 
+
+-DataType StackArray<DataType>::pop() throw(logic_error)
+
+	If the stack is not full, it removes the most recently added data item on top of the stack and returns the value of that recently deleted item. If the stack is empty, it displays an error to the user. 
+
+-void StackArray<DataType>::clear()
+
+	The function clears all items in the stack by going through the stack one by one. 
+
+-bool StackArray<DataType>::isEmpty() const
+
+	The bool function checks if the stack is empty.
+
+-bool StackArray<DataType>::isFull() const
+
+	The bool function checks if the stack is full. 
+
+-void StackArray<DataType>::showStructure() const
+
+	Displays the items in the stack and also checks to see if the stack is empty. If the stack is empty, it displays to the user that the stack is empty. 
+
+---------------------
+
+Delimiters.cpp:
+
+-bool delimitersOK ( const string& expression )
+
+	This bool function returns true if all the parenthesis and braces in the string are valid. I used a switch cases inside of a for loop, and in a try function. This allows the string to be thouroughly checked. 
+
+---------------------
+
+Postfix.cpp:
+
+-float evaluate_postfix(const std::string postfix, StackLinked<float> & stack);
+
+	This function allows the postfix to be evaluated using the stack linked method with the associated functions. I decided to do for loop that checks certain conditions to evaluate the expression that is given. 
+
+-float apply_operator(const float operand1, const float operand2, const char operator_to_apply) throw(logic_error);
+
+	For this function, I decided to do a switch statement that tested 5 cases using different operators. If an invalid operator is entered, an error message is displayed to the user. 

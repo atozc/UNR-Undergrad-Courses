@@ -1,0 +1,105 @@
+cd PA01_CrystalAtoz
+cd Assignment 
+
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+[(<>)]{}
+Valid
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+(<)>
+Invalid
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+()
+Invalid
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+{
+Invalid
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+(<)>
+Invalid
+./delimiters
+This program checks for properly matched delimiters.
+Enter delimited espression ( <EOF> to quit) : 
+({}))
+Invalid
+
+./postfix
+Excercise 1. Assignment 1.
+(5+6)*(4/3) = 56+43/* = 6.66667
+
+Excercise 1. Assignment 2.
+1. 5-2/(5*7)+10 = 52*/-3+ = 7.5
+2. 8-4*9*19 = 849*19*- = 
+3. (3*2)/(5*6) = 32*56*/ = 
+4. 8/2/3*(5-4) = 82/3/54-* = 
+5. 3+9/7*(1*4)/(2*8) = 397/14**28*/+ = 
+
+./test6
+Testing linked implementation
+
+Commands:
+  H  : Help (displays this message)
+  +x : Push x
+  -  : Pop
+  C  : Clear
+  E  : Empty stack?
+  F  : Full stack?
+  Q  : Quit the test program
+
+Empty Stack
+
+Command: +x
+Push x
+x 
+
+Command: +x
+Push x
+x x 
+
+Command: E
+Stack is NOT empty
+x x 
+
+Command: -
+Popped x
+x 
+
+Command: C
+Clear the stack
+x 
+
+Command: -
+Popped x
+Empty Stack
+
+Command: E
+Stack is empty
+Empty Stack
+
+Command: F
+Stack is NOT full
+Empty Stack
+
+Command: H
+
+Commands:
+  H  : Help (displays this message)
+  +x : Push x
+  -  : Pop
+  C  : Clear
+  E  : Empty stack?
+  F  : Full stack?
+  Q  : Quit the test program
+
+Empty Stack
+
+Command: Q
