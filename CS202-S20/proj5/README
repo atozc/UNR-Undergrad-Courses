@@ -1,0 +1,33 @@
+Project 5
+
+Purpose: This program takes 2 classes with an inheritance relationship, a base and derived class, to implement and test into a test program that is provided by the professor. More importantly, the purpose of this project is learn how to create and use inheritance with C++ classes. 
+
+Design: I chose to design this program building from test program. Adding, I created two classes, one base and one derived, along with its header files. From there, I was able to build the program and implement the inheritance relationship. 
+
+Problems: To be honest, I did not have many issues with this program in terms of creating it. I found it to be quite straight forward. On the other hand, I had issues trying to compile the program using CMake. I consistently had the error of CMake not recognizing my header files. With trial and error, I was able to solve the issue. 
+
+Possible Changes: Given more time, I would do more/more detailed comments. 
+
+Output of Program: 
+-Base Tests
+	-Tests Base Default constructor
+	-Tests Base insertion operator 
+	-Tests Base parametrized constructor 
+	-Checks base idgen 
+	-Tests Base Copy constructor 
+	-Checks base idgen 
+	-Tests Base asignment operator 
+	-Checks base idgen 
+	-Tests Base Move function - Vehicle cannot move
+-Derived Tests
+	-Tests derived Default constructor
+	-Tests derived insertion operator 
+	-Tests derived parametrized constructor 
+	-Checks derived idgen 
+	-Tests derived Copy constructor 
+	-Checks derived idgen 
+	-Tests derived asignment operator 
+	-Checks derived idgen 
+	-Tests derived Move function - Drive to destination, with throttle @75
+-Tests Done 
+	-Displays all car and vehicle info based on tests with their idgens. 
