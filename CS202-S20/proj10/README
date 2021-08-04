@@ -1,0 +1,10 @@
+Name: Project 10 
+Author: Crystal Atoz
+
+Purpose: The purpose of the project was to understand and use stack-based dynamic data structures as well as using templates in programs. 
+
+Design: I designed the program around the given classes for ArrayStack, NodeStack, and Node. 
+
+Problems: I had issues trying to separate the Node Class and Node Stack class into two separate header files. Instead, I combined them into just one header file: NodeStack.h.
+
+Possible Changes: Given more time, I would add more detailed comments. 
