@@ -1,0 +1,10 @@
+Name: Project 9 
+Author: Crystal Atoz
+
+Purpose: The purpose of the program was to create two versions of the queue data structure with an array-based method and the other a node-based method.
+
+Design: I designed the program around the DataType files along with the two classes given in the project guidelines. With that, it was straight forward.  
+
+Problems: I did not have any issues with the project. As a side note, I found it easier to work with the node-based method. 
+
+Possible Changes: Given more time, I would add more detailed comments. 
