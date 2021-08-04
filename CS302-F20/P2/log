@@ -1,0 +1,130 @@
+$ cd Project
+$ make
+g++ -c -std=c++11 sorting.cpp
+g++ -std=c++11 sorttest.cpp sorting.o -o sorting
+$ ./sorting
+
+Sorting for 1,0000 numbers...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 0.0067448
+Average comparisons: 499310
+Average swaps: 245956
+
+Quick Sort Results
+-------------------
+Average CPU runtime: 0.0122845
+Average comparisons: 507469
+Average swaps: 35415.8
+
+Counting Sort Results
+-------------------
+Average CPU runtime: 0.0253397
+Average comparisons: 0
+Average swaps: 0
+
+
+Testing SORTED 1,000 numbers list...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 7e-07
+Average comparisons: 0
+Average swaps: 0
+
+Quick Sort Results
+------------------
+Average CPU runtime: 2.2e-06
+Average comparisons: 0
+Average swaps: 0
+
+Counting Sort Results
+---------------------
+Average CPU runtime: 8e-07
+Average comparisons: 0
+Average swaps: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sorting for 10,000 numbers...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 0.724869
+Average comparisons: 49980465
+Average swaps: 2.50167e+07
+
+Quick Sort Results
+------------------
+Average CPU runtime: 1.16745
+Average comparisons: 51422522
+Average swaps: 3.35059e+06
+
+Counting Sort Results
+---------------------
+Average CPU runtime: 0.0261968
+Average comparisons: 0
+Average swaps: 0
+
+
+Testing SORTED 10,000 numbers list...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 5e-07
+Average comparisons: 0
+Average swaps: 0
+
+Quick Sort Results
+------------------
+Average CPU runtime: 3.9e-06
+Average comparisons: 0
+Average swaps: 0
+
+Counting Sort Results
+---------------------
+Average CPU runtime: 3.6e-06
+Average comparisons: 0
+Average swaps: 0
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sorting for 100,000 numbers...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 73.4696
+Average comparisons: 704710751
+Average swaps: 2.51023e+09
+
+Quick Sort Results
+------------------
+Average CPU runtime: 115.973
+Average comparisons: 845321321
+Average swaps: 3.26875e+08
+
+Counting Sort Results
+---------------------
+Average CPU runtime: 0.034949
+Average comparisons: 0
+Average swaps: 0
+
+
+Testing SORTED 100,000 numbers list...
+
+Bubble Sort Results
+-------------------
+Average CPU runtime: 5e-06
+Average comparisons: 0
+Average swaps: 0
+
+Quick Sort Results
+-------------------
+Average CPU runtime: 2.8e-05
+Average comparisons: 0
+Average swaps: 0
+
+Counting Sort Results
+-------------------
+Average CPU runtime: 5e-07
+Average comparisons: 0
+Average swaps: 0

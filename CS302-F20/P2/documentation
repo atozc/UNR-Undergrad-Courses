@@ -1,0 +1,25 @@
+Crystal Atoz 
+CS 302
+Project 2
+
+Project: For simplicity, I decided to put both algorithms in one source file. I also added a counting sort to help find the average of bubble and quick sort. 
+
+Answer to Question: The design of computationally efficient solutions are important with respect to economic and social factors because it allows the goal to get across to the users. Having more efficient solutions allows the creators to finish quicker and work on other tasks. With this being said, fundamental algorithms allow the economy to work at its best. In other words, it allows more time to do other things, as tasks are completed faster. Using algorithms, we can find better ways to make society better, such as creating solutions to manage resources better. With that, algorithms are essential to progressing society as a whole. 
+
+
+
+Table for average CPU time for bubble and quick sort:
+
+Unsorted
+--------- 		
+Size 	Bubble Sort	Quick Sort
+1000	0.0067448	0.0122845
+10000	0.724869	1.16745
+100000	73.4696	        115.973
+		
+Sorted	
+---------	
+Size	Bubble Sort	Quick Sort
+1000	7.00E-07	2.20E-06
+10000	5.00E-07	3.90E-06
+100000	5.00E-06	2.80E-05
